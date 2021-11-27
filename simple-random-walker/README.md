@@ -2,6 +2,8 @@
 
 This is a simple implementation of a random walk algorithm.
 
+Access [here](https://edibotopic.github.io/simple-random-walker/).
+
 ![Cover image](/simple-random-walker/simple-random-walker.p8.png "Cover image for pico-8 cart")
 
 ## Controls
