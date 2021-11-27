@@ -33,11 +33,10 @@ print(s, 10, 10, 6)
 end
 
 
---need to add collisions
+--todo: add collisions
 function update_walk()
 rcols= rnd(cols)
 move = flr(rnd(4))
---cols = flr(rnd(3))
 if (move == 0) then
 x += speed
 elseif (move == 1) then
@@ -119,17 +118,13 @@ function draw_menu()
 	print("by edibotopic",34,13,2)
 	
 	print("⬅️ = diffuser",30,43,7)
- print("➡️ = tiler",30,53,7)
- print("⬆️ = builder",30,63,7)
- print("⬇️ = blobber",30,73,7)
+ 	print("➡️ = tiler",30,53,7)
+ 	print("⬆️ = builder",30,63,7)
+ 	print("⬇️ = blobber",30,73,7)
  
- print("choose a pattern",20,93,12)
- print("with your arrow keys",20,103,12)
- print("z = return to menu",50,120,6)
-end
--->8
-function seeder(q)
-	return flr(rnd(q))
+ 	print("choose a pattern",20,93,12)
+ 	print("with your arrow keys",20,103,12)
+ 	print("z = return to menu",50,120,6)
 end
 __gfx__
 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
